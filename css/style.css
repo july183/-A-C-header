@@ -31,7 +31,7 @@
 
 
 
-/* 웹기능사 C-1형 시험때 필요한 것 */
+/* 웹기능사 C-2형 시험때 필요한 것 */
 .h100{height: 100px;}
 .h200{height: 200px;}
 .h300{height: 300px;}
@@ -46,12 +46,12 @@ header{width: 200px;}
 
 #gnb> li:hover .d1a{color: white; background-color: green;}
 .d2{ height: 0; overflow: hidden; background-color: green; transition: height 0.5s;
-	 font-size: 18px; line-height: 2; text-align: center;
+	 font-size: 18px; line-height: 2; text-align: center; left: 100%; top: -30px; width: 200px;
 }
 .d2 a{ color: white; }
 
 #gnb li:hover .d2{height: 180px;}
-#gnb li:nth-child(2):hover.d2{height: 80px;}
+#gnb li:nth-child(2):hover.d2{height: 80px; top: -10px;}
 
 
 
