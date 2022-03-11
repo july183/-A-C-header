@@ -45,7 +45,7 @@ header{align-items: end;}
 	 min-width: 120px; text-align: center;
 }
 .d2 a{ color: white; }
-#gnb> li:hover .d2{height: 180px;}
+#gnb:hover .d2{height: 180px;}
 .d2 li:hover{ background-color: white;}
 .d2 li:hover a{color: black;}
 
