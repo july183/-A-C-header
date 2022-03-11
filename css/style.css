@@ -31,7 +31,7 @@
 
 
 
-/* 웹기능사 A형 시험때 필요한 것 */
+/* 웹기능사 A-2형 시험때 필요한 것 */
 .h100{height: 100px;}
 .h200{height: 200px;}
 .h300{height: 300px;}
@@ -45,7 +45,17 @@ header{align-items: end;}
 	 min-width: 120px; text-align: center;
 }
 .d2 a{ color: white; }
-#gnb:hover .d2{height: 180px;}
+
+#gnb:hover .d2{height: 180px; z-index: 100;}
+
+#gnb:after{content: "";
+	position: absolute; background-color: green;
+	top: 100px; left: 0; right: 0;
+	height: 0px; transition: height 0.5s;
+}
+#gnb:hover:after{	height: 180px;}
+
+
 .d2 li:hover{ background-color: white;}
 .d2 li:hover a{color: black;}
 
