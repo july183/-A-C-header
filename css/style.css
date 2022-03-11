@@ -1,7 +1,53 @@
+
 /* reset */
 *{							
 	margin: 0 auto;			
 	padding: 0 ;
 	list-style: none;
-	font-family: "맑은 고딕";
+	text-decoration: none;
+	color: black;
 	}
+
+/* 공통클래스 */
+
+:root{
+	--abwidth : 1200px; /* A,B형 컨테이너 */
+	--cwidth : 1000px; /* c형 컨테이너 */
+}
+.abs{position: absolute ;}
+.rel{position: relative ;}
+.d-flex{display: flex;}
+.d-block{display: block ;}
+.d-none{display: none;}
+.contain{width: 1200px; margin: 0 auto;}
+.justify-content-between{justify-content: space-between;}
+.align-center{align-items: center;}
+.m-auto{margin: 0 auto;}
+.w-100{width: 100px;}
+.text-center{text-align: center;}
+.b-top{border-top: 2px solid black;}
+.b-bottom{border-bottom: 2px solid black;}
+
+
+
+
+/* 웹기능사 A형 시험때 필요한 것 */
+.h100{height: 100px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+
+.bgr{background-color: red;}
+header{align-items: end;}
+.d1a{ line-height: 60px; font-size: 26px; text-align: center; min-width: 120px;}
+#gnb> li:hover .d1a{color: white; background-color: green;}
+.d2{ height: 0; overflow: hidden; background-color: green; transition: height 0.5s;
+	 font-size: 18px; line-height: 2; left: 0; right: 0; top: 100%; 
+	 min-width: 120px; text-align: center;
+}
+.d2 a{ color: white; }
+#gnb> li:hover .d2{height: 180px;}
+.d2 li:hover{ background-color: white;}
+.d2 li:hover a{color: black;}
+
+
+#slider{}
